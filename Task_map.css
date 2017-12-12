@@ -1,0 +1,163 @@
+
+.item{
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  display: inline-block;
+  border-style: solid;
+  position: absolute;
+  border: 1px solid blue;
+  border-radius: 10%;
+  box-shadow: 1px 1px 1px grey;
+}
+#item0,#item1,#item2,#item3 {
+  left: 45%;
+  top:5%;
+} 
+
+#Mainbox {
+  left:47%;
+  top:47%;
+  width: 80px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+
+#Class1 {
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  display: inline-block;
+  border-style: solid;
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  width: 80px;
+
+}
+#tooltip{position:absolute;background:red;width:1px;height:20px;}
+
+._jsPlumb_hover{
+  opacity: .5;
+}
+
+#itemcontainer{
+  width: 100px;
+  height: 50px;
+  border-style: solid;  
+}
+#diagramcontainer{
+  border-style: solid;
+}
+#WebDevclass{
+  left: 26%;
+  top:28%;
+}
+
+#Ideationclass{
+  left: 25%;
+  top:70%;
+}
+#photoclass{
+  left: 50%;
+  top:25%;
+}
+#gameclass{
+  left: 70%;
+  top:30%;
+}
+#pythonclass{
+  left: 70%;
+  top:70%;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.hovercolor{
+  color: red;
+}
+
+.btn-primary{
+  width: 15%;
+}
+.btn-primary:hover {
+    background-color: yellow;
+}
+
+.taskbutton{
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  display: inline-block;
+  border-style: solid;
+  position: absolute;
+  border: 1px solid blue;
+  border-radius: 10%;
+  box-shadow: 1px 1px 1px grey;
+  left: 55%;
+  top:5%;
+  background-color: white;
+}
+#hideleftthing{
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+  z-index: 1;
+  background-color: black;
+}
+.jtk-drag-select {
+
+  user-select: none;    
+}
+.taskbutton {
+  z-index: -1;
+}
